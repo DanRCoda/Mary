@@ -55,11 +55,11 @@
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
-            <li class="nav-item active">
-              <a class="nav-link" href="#hero">
+            <!-- <li class="nav-item active">
+              <a class="nav-link" href="#home">
                 Home
               </a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="#about">
                 About
@@ -75,11 +75,11 @@
                 Resume
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#portfolios">
                 Work
               </a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="#contact">
                 Contact
@@ -125,8 +125,8 @@
               <!-- <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi! I'm Mary Ryan</h5> -->
               <div class="header-pics">
                 <img id="mary-1" src="assets/img/Mary-Presenting-3.jpg">
-                <img id="mary-2" src="assets/img/Mary-Presenting-3.jpg">
-                <img id="mary-3" src="assets/img/Mary-Presenting-3.jpg">
+                <img id="mary-2" src="assets/img/hero.JPG">
+                <!-- <img id="mary-3" src="assets/img/Mary-Presenting-3.jpg"> -->
               </div>
               <!-- <p class="script-font wow fadeInUp" data-wow-delay="0.6s">My passion is helping people thrive in their careers. I'd love to help you thrive in yours!</p> -->
               <!-- <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
@@ -187,7 +187,7 @@
               Career & Leadership Consulting is my labor of love.
               My work makes me feel alive, and I want the same for you!
             </p>
-            <a class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
+            <!-- <a class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a> -->
           </div>
         </div>
       </div>
@@ -251,9 +251,9 @@
         </div>
       </div>
       <div id="leadership-modal" class="modal">
-        <div class="modal-content" id="modal-content">
+        <div class="modal-content row" id="modal-content">
           <span id="close-leadership">&times;</span>
-          <div class="col-md-6">
+          <div class="col-md-6" id="workshop-topics">
             <h4>Workshop Topics</h4>
             <div id="topics">
               <p><strong>Topics Include:</strong></p>
@@ -270,7 +270,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" id="cost-structure">
             <h4 id="modal-right-side">Cost Structure</h4>
             <div id="cost">
                 <p><strong>Topics Include:</strong></p>
@@ -357,25 +357,23 @@
   <!-- Past Clients Area Start-->
   <section class="counter-section section-padding">
     <div id="past-clients">
-      <div class="row">
+      <div class="row" id="past-clients-row">
         <!-- Past Client -->
-        <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+        <div class="col-md-3 col-sm-6">
           <div id="momentum-logo"><img src="assets/img/Momentum logo.png"></div>
         </div>
-      </div>
-      <!-- Past Client -->
-      <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-        <div id="wsu-logo"><img src="assets/img/WSU logo.png"></div>
-      </div>
-    </div>
-    <!-- Past Client -->
-    <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-      <div id="unc-logo"><img src="assets/img/UNC logo.jpg"></div>
-    </div>
-    <!-- Past Client -->
-    <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-      <div class="counter wow fadeInDown" data-wow-delay="1.2s">
-        <div id="kaiser-logo"><img src="assets/img/kaiser logo.png"></div>
+        <!-- Past Client -->
+        <div class="col-md-3 col-sm-6">
+          <div id="wsu-logo"><img src="assets/img/WSU logo.png"></div>
+        </div>
+        <!-- Past Client -->
+        <div class="col-md-3 col-sm-6" id="unc-logo-space">
+          <div id="unc-logo"><img src="assets/img/UNC logo.jpg"></div>
+        </div>
+        <!-- Past Client -->
+        <div class="col-md-3 col-sm-6">
+          <div id="kaiser-logo"><img src="assets/img/kaiser logo.png"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -389,7 +387,8 @@
           <div class="col-md-6 col-lg-6 col-sm-12">
             <div class="contact-block">
               <h2>Contact Form</h2>
-              <form id="contactForm">
+              <h1 id="coming-soon">Coming Soon!</h1>
+              <!-- <form id="contactForm" method="POST">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -425,7 +424,7 @@
                     </div>
                   </div>
                 </div>
-              </form>
+              </form> -->
             </div>
           </div>
           <div class="col-md-6 col-lg-6 col-sm-12">
@@ -512,7 +511,6 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/form-validator.min.js"></script>
   <script src="assets/js/contact-form-script.min.js"></script>
-  <script src="assets/js/map.js"></script>
   <script src="assets/js/modals.js"></script>
 
 </body>
